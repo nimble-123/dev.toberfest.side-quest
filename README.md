@@ -1,3 +1,19 @@
+# Devtoberfest 2021 Side Quest
+
+Just a simple app to fetch all Devtoberfest 2021 badges by SCN ID and display them as UI5 Card.
+
+Written with React and UI5 Webcomponents.
+
+## Screenshot
+
+![screenshot](https://i.gyazo.com/869f27325685f83843707ddfc57e3b55.png)
+
+## GIF
+
+[![Image from Gyazo](https://i.gyazo.com/7d64d30d281064c40a58479f55201629.gif)](https://gyazo.com/7d64d30d281064c40a58479f55201629)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
