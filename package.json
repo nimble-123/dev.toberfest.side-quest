@@ -1,6 +1,6 @@
 {
   "name": "dev.toberfest.side-quest",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -10,6 +10,7 @@
     "@ui5/webcomponents-fiori": "1.0.0-rc.15",
     "@ui5/webcomponents-icons": "1.0.0-rc.15",
     "@ui5/webcomponents-react": "^0.18.11",
+    "axios": "^0.23.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
