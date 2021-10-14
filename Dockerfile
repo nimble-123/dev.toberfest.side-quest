@@ -1,4 +1,5 @@
-FROM node:14.17.5
+#FROM node:14.17.5
+FROM node:14-alpine
 
 WORKDIR /usr/app
 
@@ -7,13 +8,11 @@ WORKDIR /usr/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm install 
+RUN yarn install 
 
 COPY . .
-#adjust sqlite binaries 
-RUN npm uninstall sqlite3 && npm install sqlite3 --arch=x64 --platform=linux 
 
-RUN npm run build
+RUN yarn build
 
 EXPOSE 3000
-CMD ["npm","run","start-local"]
+CMD ["yarn","start"]
