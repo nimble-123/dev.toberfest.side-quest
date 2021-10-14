@@ -1,0 +1,13 @@
+.git
+_out
+.cds_gen.log
+**/*.db
+connection.properties
+default-*.json
+target/
+**/edmx/*
+plugin
+**/node_modules
+**/gen
+mta_archives
+**/package-lock.json
